@@ -1,0 +1,3 @@
+SELECT "station"."stationSolarId" as "station_id", "station"."model_SolarApp" as "model", "station"."model_power_SolarApp" as "model_power", "station"."model_image_SolarApp" as "model_image", "station"."allPowerGeneration_SolarApp" as "allPowerGeneration", "station"."lat_SolarApp" as "lat", "station"."long_SolarApp" as "long", "station"."unit_priceSolarApp" as "unit_price", "station"."electric_meter_type", "station"."deliverer", "station"."delegate", "station"."isrecieveStatus_SolarApp" as "receive_status"
+                                                                                                    FROM "station"
+                                                                                                    WHERE "stationSolarId" = 1688304
